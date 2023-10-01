@@ -8,10 +8,10 @@
 }
 
 body {
-    margin: 0;
+    margin: 0;  
     padding: 0;
     user-select: none;
-    background: linear-gradient(#00000066, #00000066), url("../images/background/light.jpg") black no-repeat center center scroll;
+    background: linear-gradient(#00000066, #00000066), url("../images/background/light.png") black no-repeat center center scroll;
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 
 .dragbar {
     position: fixed;
-    background: #00000080;
+    background: #00000000;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -52,7 +52,7 @@ img {
     width: 30px;
     height: 26px;
     transition: color .2s, background-color .2s;
-    color: black;
+    color: rgb(2, 141, 146);
     cursor: pointer;
 }
 
@@ -60,16 +60,12 @@ img {
     background: #e21212;
 }
 
-.icon-minimize:hover,
-.icon-restore-down:hover,
-.icon-maximize:hover {
-    background-color: #0000009d;
+.icon-minimize:hover {
+    background-color: #00000000;
 }
 
 .icon-close:before,
-.icon-minimize:before,
-.icon-maximize:before,
-.icon-restore-down:before {
+.icon-minimize:before {
     position: absolute;
     top: 6px;
     left: 8px;
@@ -77,6 +73,34 @@ img {
     height: 14px;
     font-size: 14px;
     color: #f8f9f9;
+}
+
+.icon-maximize:hover {
+    background-color: #a200ff;
+}
+
+.icon-maximize:before {
+    left: 1px;
+    color: #ff00ffc4;
+    display: flex;
+}
+
+.icon-maximize {
+    color: #ff00ffc4;
+}
+
+.icon-restore-down:hover {
+    background-color: #a200ff;
+}
+
+.icon-restore-down:before {
+    left: 1px;
+    color: #ff00ffc4;
+    display: flex;
+}
+
+.icon-restore-down {
+    color: #ff00ffc4;
 }
 
 .preload-content {
