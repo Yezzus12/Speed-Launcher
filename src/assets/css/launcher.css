@@ -3,7 +3,7 @@
 @import "panels/home.css";
 @import "panels/settings.css";
 
-* {
+* { /* no toques esto L */
     outline: none;
 }
 
@@ -52,7 +52,7 @@ img {
     width: 30px;
     height: 26px;
     transition: color .2s, background-color .2s;
-    color: rgb(2, 141, 146);
+    color: black;
     cursor: pointer;
 }
 
@@ -61,7 +61,7 @@ img {
 }
 
 .icon-minimize:hover {
-    background-color: #00000000;
+    background-color: #0000009d;
 }
 
 .icon-close:before,
@@ -76,31 +76,31 @@ img {
 }
 
 .icon-maximize:hover {
-    background-color: #a200ff;
+    background-color: #00000000;
 }
 
 .icon-maximize:before {
     left: 1px;
-    color: #ff00ffc4;
+    color: #f8f9f900;
     display: flex;
 }
 
 .icon-maximize {
-    color: #ff00ffc4;
+    color: #ffffff00;
 }
 
 .icon-restore-down:hover {
-    background-color: #a200ff;
+    background-color: #00000000;
 }
 
 .icon-restore-down:before {
     left: 1px;
-    color: #ff00ffc4;
+    color: #f8f9f900;
     display: flex;
 }
 
 .icon-restore-down {
-    color: #ff00ffc4;
+    color: #ffffff00;
 }
 
 .preload-content {

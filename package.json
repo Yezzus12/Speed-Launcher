@@ -1,11 +1,11 @@
 {
-    "name": "DEDsafioRec-launcher",
-    "preductname": "DEDsafio Launcher",
+    "name": "VanillaHardcore-launcher",
+    "preductname": "VanillaHardcore Launcher",
     "version": "1.3.3",
-    "description": "DEDsafio Launcher",
+    "description": "VanillaHardcore Launcher",
     "main": "src/app.js",
     "author": "DylexDMC",
-    "url": "http://noodlaunch.alwaysdata.net/penesafioalv/",
+    "url": "http://noodlaunch.alwaysdata.net/reggaetonchampagne/",
     "engines": {
         "node": "^18.x.x"
     },

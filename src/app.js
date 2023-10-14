@@ -30,10 +30,10 @@ DiscordRPC.register(clientId);
 async function setActivity() {
    if (!RPC) return;
    RPC.setActivity({
-       details: `Jugando a "DEDsafio rec"`,
+       details: `Jugando a "Vanilla Hardcore"`,
        startTimestamp: Date.now(),
-       largeImageKey: 'sadasd',
-       largeImageText: `asd`,
+       largeImageKey: 'pene',
+       largeImageText: `Vanilla Hardcore Continua...`,
        instance: false,
        buttons: [
            {
