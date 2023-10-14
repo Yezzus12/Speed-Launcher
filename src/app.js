@@ -38,7 +38,7 @@ async function setActivity() {
        buttons: [
            {
                label: `By Noodstudios`,
-               url: `https://asd`,
+               url: `https://asp`,
            }
        ]
    });
